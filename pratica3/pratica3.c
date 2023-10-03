@@ -137,7 +137,6 @@ int main(){
         count++;
     }
 
-
     //Normalizar 
         //o programa percorre todos os dados por meio dos vetores massa[], comprimento[] e dimensao[], normalizando cada um de seus valores a partir da fórmula ((valor - min)/(max - min)*2-1), sendo o max e o min respectivos a cada vetor/coluna e para o vetor sexo[] normaliza com F = 1 e M = -1
     int j = 1;
@@ -262,6 +261,6 @@ int main(){
 
     //Acurácia
     float accuracy = ((v_femea + v_macho)*1.0)/(teste *1.0);
-    printf("\n\nA acuracia do conjunto teste e de %d/%d = %.5f\n", v_femea + v_macho, teste, accuracy);
+    printf("\n\nA acuracia do conjunto teste e de %d/%d = %.5f\n\n", v_femea + v_macho, teste, accuracy);
 
 }
