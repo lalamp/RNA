@@ -224,7 +224,7 @@ int main(){
 
     //Teste do Perceptron
     int v_femea = 0, f_femea = 0, v_macho = 0, f_macho = 0;
-    printf("\nTeste: \n");
+    printf("\n\nTeste:");
     printf("\nPesos: \nw[0] = %.5f \nw[1] = %.5f \nw[2] = %.5f \nw[3] = %.5f", w[0], w[1], w[2], w[3]);
     for(j = 1; j <= total_dados; j++){
         if(conjunto[j] == 'T'){
@@ -262,5 +262,4 @@ int main(){
     //Acurácia
     float accuracy = ((v_femea + v_macho)*1.0)/(teste *1.0);
     printf("\n\nA acuracia do conjunto teste e de %d/%d = %.5f\n\n", v_femea + v_macho, teste, accuracy);
-
 }
