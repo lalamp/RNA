@@ -1,0 +1,45 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 2 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     lagarto
+Instances:    25
+Attributes:   4
+              massa
+              comprimento
+              dimensão
+              sexo
+Test mode:split 68.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 2 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances           7               87.5    %
+Incorrectly Classified Instances         1               12.5    %
+Kappa statistic                          0.75  
+Mean absolute error                      0.0868
+Root mean squared error                  0.1787
+Relative absolute error                 17.1356 %
+Root relative squared error             35.2266 %
+Total Number of Instances                8     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.2        0.75      1         0.857      1        F
+                 0.8       0          1         0.8       0.889      1        M
+Weighted Avg.    0.875     0.075      0.906     0.875     0.877      1    
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 3 0 | a = F
+ 1 4 | b = M
+
