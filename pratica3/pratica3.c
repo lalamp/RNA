@@ -31,10 +31,11 @@ int main(){
 
     fclose(file);
     
+    //Estatísticas dos dados
     int total_dados = 0, total_femeas = 0, total_machos = 0;
-    int k;
-    for(k = 1; k < 26; k++){ //o programa percorre todo o vetor sexo[] e analisa cada um de seus valores: se for F é fêmea, se for M é macho e se soma ao total de cada sexo
-        if(sexo[k] == 'F'){ 
+    int i;
+    for(i = 1; i < 26; i++){ //o programa percorre todo o vetor sexo[] e analisa cada um de seus valores: se for F é fêmea, se for M é macho e se soma ao total de cada sexo
+        if(sexo[i] == 'F'){ 
             total_femeas++;
         }
         else{
@@ -42,7 +43,7 @@ int main(){
         }
         total_dados++;
     }
-    printf("\nTotal de dados: %d \nTotal femeas: %d \nTotal machos: %d\n\n", total_dados, total_femeas, total_machos);    
+    printf("\nTotal de dados: %d \nTotal femeas: %d \nTotal machos: %d", total_dados, total_femeas, total_machos);    
     
     //Conjunto Treinamento e Conjunto Teste 
         //com proporção entre as duas classes
@@ -51,6 +52,7 @@ int main(){
     scanf("%f", &p);
     
     int femeas = 0, machos = 0, treinamento = 0, teste = 0;
+    int k;
     for(k = 1; k < 26; k++){ //o programa percorre todo o vetor sexo[], analisando se é F fêmea ou M macho
         if(sexo[k] == 'F'){
             if(femeas < p*total_femeas){ //o programa analisa se o número de fêmeas colocadas no conjunto de treinamento é menor que p*quantidade total de fêmeas -> se for, mantém adicionando no conjunto de treinamento, caso contrário adiciona-se no conjunto de teste  
@@ -77,189 +79,249 @@ int main(){
     }
 
     printf("\nConjunto Treinamento: %d dados\n", treinamento); //o programa percorre todo o vetor conjunto[]
-    for(k = 1; k < 26; k++){ 
-        if(conjunto[k] == 'A'){ //se o valor de conjunto[k] = A, essa espécie está no conjunto de treinamento
-            printf("%d: %.5f, %.5f, %.5f, %c\n", especie[k], massa[k], comprimento[k], dimensao[k], sexo[k]);
+    int esp_trein[treinamento+1];
+    float mass_trein[treinamento+1], compr_trein[treinamento+1], dim_trein[treinamento+1];
+    char sexo_trein[treinamento+1];
+    int b = 1;
+
+    for(k = 1; k <= total_dados; k++){ 
+        if(conjunto[k] == 'A'){ //se o valor de conjunto[k] = A, essa espécie está no conjunto de treinamento e passa os valores para os vetores de treinamento
+            esp_trein[b] = especie[k];
+            mass_trein[b] = massa[k];
+            compr_trein[b] = comprimento[k];
+            dim_trein[b] = dimensao[k];
+            sexo_trein[b] = sexo[k];
+            
+            printf("%d: %.5f, %.5f, %.5f, %c\n", esp_trein[b], mass_trein[b], compr_trein[b], dim_trein[b], sexo_trein[b]);
+            b++;
         }
     }
+
     printf("\nConjunto Teste: %d dados\n", teste);
-    for(k = 1; k < 26; k++){
-        if(conjunto[k] == 'T'){ //se o valor de conjunto[k] = T, essa espécie está no conjunto de teste
-            printf("%d: %.5f, %.5f, %.5f, %c\n", especie[k], massa[k], comprimento[k], dimensao[k], sexo[k]);
+    int esp_teste[teste+1];
+    float mass_teste[teste+1], compr_teste[teste+1], dim_teste[teste+1];
+    char sexo_teste[teste+1];
+    b = 1;
+
+    for(k = 1; k <= total_dados; k++){
+        if(conjunto[k] == 'T'){ //se o valor de conjunto[k] = T, essa espécie está no conjunto de teste e passa os valores para os vetores de teste
+            esp_teste[b] = especie[k];
+            mass_teste[b] = massa[k];
+            compr_teste[b] = comprimento[k];
+            dim_teste[b] = dimensao[k];
+            sexo_teste[b] = sexo[k];
+            
+            printf("%d: %.5f, %.5f, %.5f, %c\n", esp_teste[b], mass_teste[b], compr_teste[b], dim_teste[b], sexo_teste[b]);
+            b++;
         }
     }
     printf("\n");
 
     //Máximo e Mínimo 
-        //o programa percorre os vetores massa[], comprimento[] e dimensao[] do conjunto treinamento, comparando os valores para descobrir o máximo e mínimo de cada coluna
+        //o programa percorre os vetores mass_trein[], compr_trein[] e dim_trein[] do conjunto treinamento, comparando os valores para descobrir o máximo e mínimo de cada coluna
     float max_massa = 0, max_comprimento = 0, max_dimensao = 0;
     float min_massa = 1000, min_comprimento = 1000, min_dimensao = 1000;
 
-    int i = 1, count = 0;
-    while(count < total_dados){
-        if(conjunto[i] == 'A'){
-            if(massa[i] > max_massa){
-                max_massa = massa[i];
-            }
-            if(massa[i] < min_massa){
-                min_massa = massa[i];
-            }  
+    int c = 1, count = 0;
+    while(count < treinamento){
+        if(mass_trein[c] > max_massa){
+            max_massa = mass_trein[c];
         }
-        i++;
+        if(mass_trein[c] < min_massa){
+            min_massa = mass_trein[c];
+        }  
+        c++;
         count++;
     }
 
-    i = 1, count = 0;
-    while(count < total_dados){
-        if(conjunto[i] == 'A'){
-            if(comprimento[i] > max_comprimento){
-                max_comprimento = comprimento[i];
-            }
-            if(comprimento[i] < min_comprimento){
-                min_comprimento = comprimento[i];
-            } 
+    c = 1, count = 0;
+    while(count < treinamento){
+        if(compr_trein[c] > max_comprimento){
+            max_comprimento = compr_trein[c];
         }
-        i++;
+        if(compr_trein[c] < min_comprimento){
+            min_comprimento = compr_trein[c];
+        } 
+        c++;
         count++;
     }
 
-    i = 1, count = 0;
-    while(count < total_dados){
-        if(conjunto[i] == 'A'){
-            if(dimensao[i] > max_dimensao){
-                max_dimensao = dimensao[i];
-            }
-            if(dimensao[i] < min_dimensao){
-                min_dimensao = dimensao[i];
-            }
+    c = 1, count = 0;
+    while(count < treinamento){
+        if(dim_trein[c] > max_dimensao){
+            max_dimensao = dim_trein[c];
         }
-        i++;
+        if(dim_trein[c] < min_dimensao){
+            min_dimensao = dim_trein[c];
+        }
+        c++;
         count++;
     }
 
     //Normalizar 
-        //o programa percorre todos os dados por meio dos vetores massa[], comprimento[] e dimensao[], normalizando cada um de seus valores a partir da fórmula ((valor - min)/(max - min)*2-1), sendo o max e o min respectivos a cada vetor/coluna e para o vetor sexo[] normaliza com F = 1 e M = -1
-    int j = 1;
-    count = 0;
-    int sexo_norm[25];
-
+        //o programa percorre todos os dados por meio dos vetores massa, comprimento e dimensao, normalizando cada um de seus valores a partir da fórmula ((valor - min)/(max - min)*2-1), sendo o max e o min respectivos a cada vetor/coluna e para o vetor sexo normaliza com F = 1 e M = -1
+    int j;
+    int sexo_trein_norm[treinamento+1];
+    int sexo_teste_norm[teste+1];
+   
+    j = 1;
     printf("\nConjunto Treinamento Normalizado: \n");
-    while(count < total_dados){
-        if(conjunto[j] == 'A'){
-            massa[j] = ((massa[j] - min_massa)/(max_massa - min_massa))*2 - 1;
-            comprimento[j] = ((comprimento[j] - min_comprimento)/(max_comprimento - min_comprimento))*2 - 1;
-            dimensao[j] = ((dimensao[j] - min_dimensao)/(max_dimensao - min_dimensao))*2 - 1;
+    while(j <= treinamento){
+        mass_trein[j] = ((mass_trein[j] - min_massa)/(max_massa - min_massa))*2 - 1;
+        compr_trein[j] = ((compr_trein[j] - min_comprimento)/(max_comprimento - min_comprimento))*2 - 1;
+        dim_trein[j] = ((dim_trein[j] - min_dimensao)/(max_dimensao - min_dimensao))*2 - 1;
 
-            if(sexo[j] == 'F'){
-                sexo_norm[j] = 1;
-            }
-            else{
-                sexo_norm[j] = -1;
-            }
-
-            printf("%d: %.5f, %.5f, %.5f, %d\n", especie[j], massa[j], comprimento[j], dimensao[j], sexo_norm[j]);
+        if(sexo_trein[j] == 'F'){
+            sexo_trein_norm[j] = 1;
+        }
+        else{
+            sexo_trein_norm[j] = -1;
         }
 
-        j++;
-        count++;    
+        printf("%d: %.5f, %.5f, %.5f, %d\n", esp_trein[j], mass_trein[j], compr_trein[j], dim_trein[j], sexo_trein_norm[j]);
+
+        j++;   
     }
 
     j = 1;
-    count = 0;
     printf("\nConjunto Teste Normalizado: \n");
-    while(count < total_dados){
-        if(conjunto[j] == 'T'){
-            massa[j] = ((massa[j] - min_massa)/(max_massa - min_massa))*2 - 1;
-            comprimento[j] = ((comprimento[j] - min_comprimento)/(max_comprimento - min_comprimento))*2 - 1;
-            dimensao[j] = ((dimensao[j] - min_dimensao)/(max_dimensao - min_dimensao))*2 - 1;
+    while(j <= teste){
+        mass_teste[j] = ((mass_teste[j] - min_massa)/(max_massa - min_massa))*2 - 1;
+        compr_teste[j] = ((compr_teste[j] - min_comprimento)/(max_comprimento - min_comprimento))*2 - 1;
+        dim_teste[j] = ((dim_teste[j] - min_dimensao)/(max_dimensao - min_dimensao))*2 - 1;
 
-            if(sexo[j] == 'F'){
-                sexo_norm[j] = 1;
-            }
-            else{
-                sexo_norm[j] = -1;
-            }
-
-            printf("%d: %.5f, %.5f, %.5f, %d\n", especie[j], massa[j], comprimento[j], dimensao[j], sexo_norm[j]);
+        if(sexo_teste[j] == 'F'){
+            sexo_teste_norm[j] = 1;
+        }
+        else{
+            sexo_teste_norm[j] = -1;
         }
 
+        printf("%d: %.5f, %.5f, %.5f, %d\n", esp_teste[j], mass_teste[j], compr_teste[j], dim_teste[j], sexo_teste_norm[j]); 
+        
         j++;
-        count++;    
     }
 
     //Treinando o Perceptron
-    int y[treinamento+1];
-    float u, e;
-    float w[4] = {0, 0, 0, 0};
-    float neta = 0.01;
-    int iteracao = 1;
+    int N = treinamento;    //número de espécies do conjunto treinamento
+    int n = 1;              //variável para percorrer os dados do conjunto treinamento durante o teste
+    int v;                  //índice
 
-    while(iteracao <= 4){
-        for(j = 1; j <= total_dados; j++){
-            if(conjunto[j] == 'A'){
-                u = w[0] + massa[j]*w[1] + comprimento[j]*w[2] + dimensao[j]*w[3];
-                printf("\n\nu= %.5f", u);
+    float u;     //u = ativação interna do neurônio
+    int y, d, e; //e = erro (diferença entre a saída desejada e a saída real); 
+                 //y = saída real;
+                 //d = saída desejada;
+    
+    float w[4] = {0, 0, 0, 0};  //vetor peso, sendo o primero valor o bias - pesos inicializados com 0
+    float neta = 0.01;          //taxa de aprendizado (learning rate)
+    
+    int erro_max = 0;         //erro desejado
+    float erro = 1;           //controle do looping
 
-                if(u > 0){
-                    y[j] = 1;
-                }
-                else{
-                    y[j] = -1;
-                }
+    float E, u_E;   //E = soma dos erros quadráticos a cada reajuste de peso
+                    //u_E = ativação interna de cada neurônio no cálculo do erro quadrático
+    int y_E;        //y_E = saída real de cada neurônio no cálculo do erro quadrático
+    
+    while(erro > erro_max){ 
+        printf("\n\nIteracao: %d", n);
+        v = (n-1) % N + 1;
 
-                e = sexo_norm[j] - y[j];
-                printf("\ne = d[%d] - y[%d] = %d - %d = %.5f", j, j, sexo_norm[j], y[j], e);
+        printf("\nEspecie de Treinamento: %d", v);
 
-                w[0] = w[0] + neta*e;
-                w[1] = w[1] + massa[j]*neta*e; 
-                w[2] = w[2] + comprimento[j]*neta*e;
-                w[3] = w[3] + dimensao[j]*neta*e;
-                printf("\nNovos pesos: \nw[0] = %.5f \nw[1] = %.5f \nw[2] = %.5f \nw[3] = %.5f", w[0], w[1], w[2], w[3]);
+        d = sexo_trein_norm[v];
+        printf("\nSaida desejada: %d", d);
+        
+        //ativação interna do neurônio v
+        u = w[0] + mass_trein[v]*w[1] + compr_trein[v]*w[2] + dim_trein[v]*w[3];
+        printf("\nu= %.5f", u);
 
-                printf("\nPesos ajustados para a especie %d", j);
-            }
+        //função de ativação
+        if(u > 0){
+            y = 1;
         }
-        iteracao++;
+        else{
+            y = -1;
+        }
+
+        //erro
+        e = d - y; 
+        printf("\ne = d - y = %d - %d = %d", d, y, e);
+
+        //ajuste dos pesos
+        w[0] = w[0] + neta*e;
+        w[1] = w[1] + mass_trein[v]*neta*e; 
+        w[2] = w[2] + compr_trein[v]*neta*e;
+        w[3] = w[3] + dim_trein[v]*neta*e;
+        printf("\nNovos pesos: \nw[0] = %.5f \nw[1] = %.5f \nw[2] = %.5f \nw[3] = %.5f", w[0], w[1], w[2], w[3]);
+
+        //soma dos erros quadráticos 
+        E = 0;
+        for(int a = 1; a <= treinamento; a++){
+            u_E = w[0] + mass_trein[a]*w[1] + compr_trein[a]*w[2] + dim_trein[a]*w[3];
+            
+            if(u_E > 0){
+                y_E = 1;
+            }
+            else{
+                y_E = -1;
+            }
+
+            d = sexo_trein_norm[a];
+            E += pow((d - y_E), 2);
+        }
+        E = E/N;
+        erro = E;
+        printf("\nerro (E) = %.5f", erro);
+        
+        n += 1;
     }
 
     //Teste do Perceptron
-    int v_femea = 0, f_femea = 0, v_macho = 0, f_macho = 0;
+        //utilizando os últimos pesos obtidos no treinamento do perceptron, aplicamos para cada um dos dados do conjunto teste  
     printf("\n\nTeste:");
     printf("\nPesos: \nw[0] = %.5f \nw[1] = %.5f \nw[2] = %.5f \nw[3] = %.5f", w[0], w[1], w[2], w[3]);
-    for(j = 1; j <= total_dados; j++){
-        if(conjunto[j] == 'T'){
-            u = w[0] + massa[j]*w[1] + comprimento[j]*w[2] + dimensao[j]*w[3];
-            printf("\n\nu = %f", u);
 
-            if(u > 0){
-                y[j] = 1;
-            }
-            else{
-                y[j] = -1;
-            }
-            printf("\ny[%d] = %d  x  d[%d] = %d", j, y[j], j, sexo_norm[j]);
+    int v_femea = 0, f_femea = 0, v_macho = 0, f_macho = 0; //variáveis que armazenam valores da matriz de confusão, ou seja, quais resultados são verdadeiros e quais são falsos para cada classe (femea e macho)
 
-            if(y[j] == sexo_norm[j] && sexo_norm[j] == 1){
-                v_femea++;
-            }
-            else if(y[j] == sexo_norm[j] && sexo_norm[j] == -1){
-                v_macho++;
-            }
-            else if(y[j] != sexo_norm[j] && sexo_norm[j] == 1){
-                f_macho++;
-            }
-            else{
-                f_femea++;
-            }
+    for(j = 1; j <= teste; j++){
+        printf("\n\nEspecie de Teste %d", j);
+
+        //ativação interna do neurônio j
+        u = w[0] + mass_teste[j]*w[1] + compr_teste[j]*w[2] + dim_teste[j]*w[3];
+        printf("\nu = %f", u);
+
+        //função de ativação
+        if(u > 0){
+            y = 1;
+        }
+        else{
+            y = -1;
+        }
+        d = sexo_teste_norm[j];
+        printf("\ny = %d  x  d = %d", y, d); //comparação entre a saída real (y) e a saída desejada (d)
+
+        //obtém os valores para a matriz de confusão
+        if(y == d && d == 1){
+            v_femea++;
+        }
+        else if(y == d && d == -1){
+            v_macho++;
+        }
+        else if(y != d && d == 1){
+            f_macho++;
+        }
+        else{
+            f_femea++;
         }
     }
 
     //Matriz de Confusão
-    printf("\n\n\n                                CLASSIFICACAO TESTE\n");
+    printf("\n\n\n                                CLASS. TESTE:\n");
     printf("                                FEMEA           MACHO\n\n");
     printf("CLASS. REAL: FEMEA              %d              %d\n\n             MACHO              %d              %d", v_femea, f_macho, f_femea, v_macho);
 
     //Acurácia
+        //accuracy = número de previsões corretas/número de previsões totais
     float accuracy = ((v_femea + v_macho)*1.0)/(teste *1.0);
-    printf("\n\nA acuracia do conjunto teste e de %d/%d = %.5f\n\n", v_femea + v_macho, teste, accuracy);
+    printf("\n\nA acuracia do conjunto teste e de %d/%d = %.5f = %.0f%%\n\n", v_femea + v_macho, teste, accuracy, accuracy*100);
 }
