@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 10000 -V 0 -S 0 -E 20 -H 5 -R
+Relation:     population
+Instances:    198
+Attributes:   3
+              ano_retrasado
+              ano_passado
+              ano_atual
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    1.8580937203987697
+    Node 1    -5.3190309719959235
+    Node 2    -2.106707930628191
+    Node 3    -2.0949482702354034
+    Node 4    -3.7367420016498327
+    Node 5    2.9669612138163957
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.094196821090617
+    Attrib ano_retrasado    -0.5535054530660813
+    Attrib ano_passado    2.2613795348549677
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.428945984798322
+    Attrib ano_retrasado    0.1530306822313657
+    Attrib ano_passado    -2.2574691102674227
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.4418778847797986
+    Attrib ano_retrasado    -0.2520238246874318
+    Attrib ano_passado    -2.041699815783088
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -3.4422528622729107
+    Attrib ano_retrasado    0.06326202756984761
+    Attrib ano_passado    -2.4472140183876965
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -7.924834512404117
+    Attrib ano_retrasado    -8.669319314776693
+    Attrib ano_passado    4.3753038183940385
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 0.42 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9999
+Mean absolute error                      3.5247
+Root mean squared error                  4.772 
+Relative absolute error                  1.1086 %
+Root relative squared error              1.3454 %
+Total Number of Instances              198 
