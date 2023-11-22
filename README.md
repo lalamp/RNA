@@ -1,4 +1,4 @@
-# Redes Neurais Artificias
+# Redes Neurais Artificiais
 
 + [prática 1](https://github.com/lalamp/RNA/tree/main/pratica1) - WEKA
 + [prática 2](https://github.com/lalamp/RNA/tree/main/pratica2) - gerar conjuntos treinamento e teste e normalizá-los
