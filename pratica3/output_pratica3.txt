@@ -1,0 +1,4817 @@
+PS C:\Users\lal4mp\Desktop\USP\RNA\pratica3\output> & .\'pratica3.exe'
+
+Arquivo aberto para leitura com sucesso
+
+DADOS:
+   1       5.526            59             113.5         F
+   2       10.401           75              142          M
+   3       9.213            69              124          F
+   4       8.953           67.5             125          F
+   5       7.063            62             129.5         M
+   6        6.61            62              123          F
+   7       11.273           74              140          M
+   8       2.447            47               97          F
+   9       15.493          86.5             162          M
+   10      9.004            69             126.5         F
+   11      8.199           70.5             136          M
+   12      6.601           64.5             116          F
+   13      7.622           67.5             135          M
+   14      10.067           73             136.5         M
+   15      10.091           73             135.5         M
+   16      10.888           77              139          M
+   17       7.61           61.5             118          F
+   18      7.733           66.5            133.5         M
+   19      12.015          79.5             150          M
+   20      10.049           74              137          M
+   21      5.149           59.5             116          F
+   22      9.158            68              123          F
+   23      12.132           75              141          M
+   24      6.978           66.5             117          F
+   25       6.89            63              117          F
+
+Total de dados: 25
+Total femeas: 12
+Total machos: 13
+
+Informe um valor para p (valor entre 0 e 1 - controla o tamanho dos conjuntos de treinamento e teste): 0.75
+
+Conjunto Treinamento: 19 dados
+1: 5.52600, 59.00000, 113.50000, F
+2: 10.40100, 75.00000, 142.00000, M
+3: 9.21300, 69.00000, 124.00000, F
+4: 8.95300, 67.50000, 125.00000, F
+5: 7.06300, 62.00000, 129.50000, M
+6: 6.61000, 62.00000, 123.00000, F
+7: 11.27300, 74.00000, 140.00000, M
+8: 2.44700, 47.00000, 97.00000, F
+9: 15.49300, 86.50000, 162.00000, M
+10: 9.00400, 69.00000, 126.50000, F
+11: 8.19900, 70.50000, 136.00000, M
+12: 6.60100, 64.50000, 116.00000, F
+13: 7.62200, 67.50000, 135.00000, M
+14: 10.06700, 73.00000, 136.50000, M
+15: 10.09100, 73.00000, 135.50000, M
+16: 10.88800, 77.00000, 139.00000, M
+17: 7.61000, 61.50000, 118.00000, F
+18: 7.73300, 66.50000, 133.50000, M
+21: 5.14900, 59.50000, 116.00000, F
+
+Conjunto Teste: 6 dados
+19: 12.01500, 79.50000, 150.00000, M
+20: 10.04900, 74.00000, 137.00000, M
+22: 9.15800, 68.00000, 123.00000, F
+23: 12.13200, 75.00000, 141.00000, M
+24: 6.97800, 66.50000, 117.00000, F
+25: 6.89000, 63.00000, 117.00000, F
+
+
+Conjunto Treinamento Normalizado:
+1: -0.52798, -0.39241, -0.49231, 1
+2: 0.21938, 0.41772, 0.38462, -1
+3: 0.03725, 0.11392, -0.16923, 1
+4: -0.00261, 0.03797, -0.13846, 1
+5: -0.29235, -0.24051, 0.00000, -1
+6: -0.36180, -0.24051, -0.20000, 1
+7: 0.35306, 0.36709, 0.32308, -1
+8: -1.00000, -1.00000, -1.00000, 1
+9: 1.00000, 1.00000, 1.00000, -1
+10: 0.00521, 0.11392, -0.09231, 1
+11: -0.11820, 0.18987, 0.20000, -1
+12: -0.36318, -0.11392, -0.41538, 1
+13: -0.20665, 0.03797, 0.16923, -1
+14: 0.16817, 0.31646, 0.21538, -1
+15: 0.17185, 0.31646, 0.18462, -1
+16: 0.29404, 0.51899, 0.29231, -1
+17: -0.20849, -0.26582, -0.35385, 1
+18: -0.18964, -0.01266, 0.12308, -1
+21: -0.58577, -0.36709, -0.41538, 1
+
+Conjunto Teste Normalizado:
+19: 0.46681, 0.64557, 0.63077, -1
+20: 0.16541, 0.36709, 0.23077, -1
+22: 0.02882, 0.06329, -0.20000, 1
+23: 0.48475, 0.41772, 0.35385, -1
+24: -0.30538, -0.01266, -0.38462, 1
+25: -0.31887, -0.18987, -0.38462, 1
+
+
+Iteracao: 1
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.00000
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.02000
+w[1] = -0.01056
+w[2] = -0.00785
+w[3] = -0.00985
+erro (E) = 1.89474
+
+Iteracao: 2
+Especie de Treinamento: 2
+Saida desejada: -1
+u= 0.01062
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01495
+w[2] = -0.01620
+w[3] = -0.01754
+erro (E) = 0.63158
+
+Iteracao: 3
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00057
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01495
+w[2] = -0.01620
+w[3] = -0.01754
+erro (E) = 0.63158
+
+Iteracao: 4
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00185
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01495
+w[2] = -0.01620
+w[3] = -0.01754
+erro (E) = 0.63158
+
+Iteracao: 5
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00827
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00910
+w[2] = -0.01139
+w[3] = -0.01754
+erro (E) = 1.68421
+
+Iteracao: 6
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.01046
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 7
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.01867
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 8
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.05408
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 9
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.05408
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 10
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00006
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 11
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.00545
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 12
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.01673
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 13
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00088
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 14
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01251
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 15
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01191
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 16
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.01951
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 17
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.01533
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01634
+w[2] = -0.01620
+w[3] = -0.02154
+erro (E) = 0.42105
+
+Iteracao: 18
+Especie de Treinamento: 18
+Saida desejada: -1
+u= 0.00065
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01254
+w[2] = -0.01595
+w[3] = -0.02400
+erro (E) = 1.26316
+
+Iteracao: 19
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.00317
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01254
+w[2] = -0.01595
+w[3] = -0.02400
+erro (E) = 1.26316
+
+Iteracao: 20
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.00470
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01254
+w[2] = -0.01595
+w[3] = -0.02400
+erro (E) = 1.26316
+
+Iteracao: 21
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03864
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01254
+w[2] = -0.01595
+w[3] = -0.02400
+erro (E) = 1.26316
+
+Iteracao: 22
+Especie de Treinamento: 3
+Saida desejada: 1
+u= -0.01822
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01180
+w[2] = -0.01367
+w[3] = -0.02738
+erro (E) = 0.21053
+
+Iteracao: 23
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00330
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01180
+w[2] = -0.01367
+w[3] = -0.02738
+erro (E) = 0.21053
+
+Iteracao: 24
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00674
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00595
+w[2] = -0.00886
+w[3] = -0.02738
+erro (E) = 1.47368
+
+Iteracao: 25
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.01024
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 26
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.01981
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 27
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.05824
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 28
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.05824
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 29
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00127
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 30
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.00731
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 31
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.01938
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 32
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00311
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 33
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01330
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 34
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01239
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 35
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02015
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 36
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.01749
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 37
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00119
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 38
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.02578
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 39
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.02778
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 40
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.02067
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 41
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00326
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 42
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00386
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01319
+w[2] = -0.01367
+w[3] = -0.03138
+erro (E) = 0.21053
+
+Iteracao: 43
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00714
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00734
+w[2] = -0.00886
+w[3] = -0.03138
+erro (E) = 1.26316
+
+Iteracao: 44
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00894
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 45
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.02160
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 46
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.06363
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 47
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.06363
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 48
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00163
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 49
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.00795
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 50
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.02155
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 51
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00350
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 52
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01440
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 53
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01336
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 54
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02172
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 55
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.01919
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 56
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00142
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 57
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.02825
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 58
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.03048
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 59
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.02252
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 60
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00389
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 61
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00442
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01458
+w[2] = -0.01367
+w[3] = -0.03538
+erro (E) = 0.21053
+
+Iteracao: 62
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00755
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00873
+w[2] = -0.00886
+w[3] = -0.03538
+erro (E) = 1.26316
+
+Iteracao: 63
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00763
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 64
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.02338
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 65
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.06902
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 66
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.06902
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 67
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00199
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 68
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.00859
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 69
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.02372
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 70
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00389
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 71
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01549
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 72
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01434
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 73
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02330
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 74
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02090
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 75
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00165
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 76
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.03073
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 77
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.03318
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 78
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.02436
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 79
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00451
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 80
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00498
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01597
+w[2] = -0.01367
+w[3] = -0.03938
+erro (E) = 0.21053
+
+Iteracao: 81
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00796
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01012
+w[2] = -0.00886
+w[3] = -0.03938
+erro (E) = 1.05263
+
+Iteracao: 82
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00633
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 83
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.02516
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 84
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.07441
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 85
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.07441
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 86
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00236
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 87
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.00922
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 88
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.02588
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 89
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00427
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 90
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01659
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 91
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01532
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 92
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02488
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 93
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02260
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 94
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00188
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 95
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.03321
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 96
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.03589
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 97
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.02620
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 98
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00514
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 99
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00553
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01735
+w[2] = -0.01367
+w[3] = -0.04338
+erro (E) = 0.21053
+
+Iteracao: 100
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00836
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01151
+w[2] = -0.00886
+w[3] = -0.04338
+erro (E) = 0.84211
+
+Iteracao: 101
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00503
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 102
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.02694
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 103
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.07980
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 104
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.07980
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 105
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00272
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 106
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.00986
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 107
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.02805
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 108
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00466
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 109
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01768
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 110
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01630
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 111
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02646
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 112
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02431
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 113
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00210
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 114
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.03568
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 115
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.03859
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 116
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.02805
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 117
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00576
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 118
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00609
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01874
+w[2] = -0.01367
+w[3] = -0.04738
+erro (E) = 0.21053
+
+Iteracao: 119
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00877
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01290
+w[2] = -0.00886
+w[3] = -0.04738
+erro (E) = 0.84211
+
+Iteracao: 120
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00373
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 121
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.02873
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 122
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.08519
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 123
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.08519
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 124
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00308
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 125
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01049
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 126
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03021
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 127
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00505
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 128
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01878
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 129
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01727
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 130
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02803
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 131
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02601
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 132
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00233
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 133
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.03816
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 134
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04129
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 135
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.02989
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 136
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00639
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 137
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00665
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02013
+w[2] = -0.01367
+w[3] = -0.05138
+erro (E) = 0.21053
+
+Iteracao: 138
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00917
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01428
+w[2] = -0.00886
+w[3] = -0.05138
+erro (E) = 0.84211
+
+Iteracao: 139
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00242
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 140
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03051
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 141
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.09058
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 142
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.09058
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 143
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00344
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 144
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01113
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 145
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03238
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 146
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00544
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 147
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01987
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 148
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01825
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 149
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02961
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 150
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02772
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 151
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00256
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 152
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04063
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 153
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04399
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 154
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03173
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 155
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00701
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 156
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00721
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02152
+w[2] = -0.01367
+w[3] = -0.05538
+erro (E) = 0.21053
+
+Iteracao: 157
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00958
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01567
+w[2] = -0.00886
+w[3] = -0.05538
+erro (E) = 0.84211
+
+Iteracao: 158
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00112
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 159
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03229
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 160
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.09597
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 161
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.09597
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 162
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00380
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 163
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01176
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 164
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03455
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 165
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00583
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 166
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02097
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 167
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01923
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 168
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.03119
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 169
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02942
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 170
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00279
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 171
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04311
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 172
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04670
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 173
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03358
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 174
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00764
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 175
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00776
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02291
+w[2] = -0.01367
+w[3] = -0.05938
+erro (E) = 0.21053
+
+Iteracao: 176
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00999
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01706
+w[2] = -0.00886
+w[3] = -0.05938
+erro (E) = 0.63158
+
+Iteracao: 177
+Especie de Treinamento: 6
+Saida desejada: 1
+u= 0.00018
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01706
+w[2] = -0.00886
+w[3] = -0.05938
+erro (E) = 0.63158
+
+Iteracao: 178
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.04846
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01706
+w[2] = -0.00886
+w[3] = -0.05938
+erro (E) = 0.63158
+
+Iteracao: 179
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.06531
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01706
+w[2] = -0.00886
+w[3] = -0.05938
+erro (E) = 0.63158
+
+Iteracao: 180
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.10531
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01706
+w[2] = -0.00886
+w[3] = -0.05938
+erro (E) = 0.63158
+
+Iteracao: 181
+Especie de Treinamento: 10
+Saida desejada: 1
+u= -0.01562
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 182
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01149
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 183
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03234
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 184
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00711
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 185
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01812
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 186
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01630
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 187
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02630
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 188
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02695
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 189
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00424
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 190
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.03778
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 191
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04168
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 192
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03002
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 193
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00898
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 194
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00827
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01696
+w[2] = -0.00658
+w[3] = -0.06123
+erro (E) = 0.21053
+
+Iteracao: 195
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00654
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01111
+w[2] = -0.00177
+w[3] = -0.06123
+erro (E) = 0.84211
+
+Iteracao: 196
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00331
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 197
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.02997
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 198
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.09016
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 199
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.09016
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 200
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00518
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 201
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01213
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 202
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03451
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 203
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00750
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 204
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01922
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 205
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01728
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 206
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02788
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 207
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02866
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 208
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00447
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 209
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04026
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 210
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04438
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 211
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03186
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 212
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.00961
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 213
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00883
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01835
+w[2] = -0.00658
+w[3] = -0.06523
+erro (E) = 0.21053
+
+Iteracao: 214
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00695
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01250
+w[2] = -0.00177
+w[3] = -0.06523
+erro (E) = 0.84211
+
+Iteracao: 215
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00201
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 216
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03175
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 217
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.09555
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 218
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.09555
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 219
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00554
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 220
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01276
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 221
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03668
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 222
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00789
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 223
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02031
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 224
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01826
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 225
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02946
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 226
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03036
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 227
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00469
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 228
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04273
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 229
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04709
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 230
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03371
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 231
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01023
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 232
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00939
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01974
+w[2] = -0.00658
+w[3] = -0.06923
+erro (E) = 0.21053
+
+Iteracao: 233
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00735
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01389
+w[2] = -0.00177
+w[3] = -0.06923
+erro (E) = 0.84211
+
+Iteracao: 234
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00070
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 235
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03353
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 236
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.10094
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 237
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.10094
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 238
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00590
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 239
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01340
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 240
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03884
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 241
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00828
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 242
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02141
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 243
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01923
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 244
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.03103
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 245
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03207
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 246
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00492
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 247
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04521
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 248
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04979
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 249
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03555
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 250
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01086
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 251
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.00994
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.02113
+w[2] = -0.00658
+w[3] = -0.07323
+erro (E) = 0.21053
+
+Iteracao: 252
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00776
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01528
+w[2] = -0.00177
+w[3] = -0.07323
+erro (E) = 0.63158
+
+Iteracao: 253
+Especie de Treinamento: 6
+Saida desejada: 1
+u= 0.00060
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01528
+w[2] = -0.00177
+w[3] = -0.07323
+erro (E) = 0.63158
+
+Iteracao: 254
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.04970
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01528
+w[2] = -0.00177
+w[3] = -0.07323
+erro (E) = 0.63158
+
+Iteracao: 255
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.07028
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01528
+w[2] = -0.00177
+w[3] = -0.07323
+erro (E) = 0.63158
+
+Iteracao: 256
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.11028
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01528
+w[2] = -0.00177
+w[3] = -0.07323
+erro (E) = 0.63158
+
+Iteracao: 257
+Especie de Treinamento: 10
+Saida desejada: 1
+u= -0.01352
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 258
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01313
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 259
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03664
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 260
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00955
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 261
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01856
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 262
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01631
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 263
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02614
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 264
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.02959
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 265
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00637
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 266
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.03989
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 267
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04477
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 268
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03199
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 269
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01220
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 270
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01045
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01517
+w[2] = 0.00051
+w[3] = -0.07508
+erro (E) = 0.21053
+
+Iteracao: 271
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00431
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00933
+w[2] = 0.00532
+w[3] = -0.07508
+erro (E) = 0.84211
+
+Iteracao: 272
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00289
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 273
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03121
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 274
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.09513
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 275
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.09513
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 276
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00727
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 277
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01376
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 278
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.03880
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 279
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.00994
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 280
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01966
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 281
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01728
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 282
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02772
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 283
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03130
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 284
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00660
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 285
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04236
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 286
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04748
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 287
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03384
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 288
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01282
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 289
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01101
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01656
+w[2] = 0.00051
+w[3] = -0.07908
+erro (E) = 0.21053
+
+Iteracao: 290
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00472
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01072
+w[2] = 0.00532
+w[3] = -0.07908
+erro (E) = 0.84211
+
+Iteracao: 291
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00159
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 292
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03299
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 293
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.10052
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 294
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.10052
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 295
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00763
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 296
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01440
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 297
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.04097
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 298
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.01033
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 299
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02075
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 300
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01826
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 301
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02930
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 302
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03300
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 303
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00683
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 304
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04484
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 305
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.05018
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 306
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03568
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 307
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01345
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 308
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01157
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01795
+w[2] = 0.00051
+w[3] = -0.08308
+erro (E) = 0.21053
+
+Iteracao: 309
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00513
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01210
+w[2] = 0.00532
+w[3] = -0.08308
+erro (E) = 0.84211
+
+Iteracao: 310
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00028
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 311
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03478
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 312
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.10591
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 313
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.10591
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 314
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00799
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 315
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01503
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 316
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.04314
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 317
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.01072
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 318
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02185
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 319
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01924
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 320
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.03088
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 321
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03471
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 322
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00706
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 323
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04731
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 324
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.05288
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 325
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03752
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 326
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01407
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 327
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01213
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01934
+w[2] = 0.00051
+w[3] = -0.08708
+erro (E) = 0.21053
+
+Iteracao: 328
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00553
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01349
+w[2] = 0.00532
+w[3] = -0.08708
+erro (E) = 0.63158
+
+Iteracao: 329
+Especie de Treinamento: 6
+Saida desejada: 1
+u= 0.00102
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01349
+w[2] = 0.00532
+w[3] = -0.08708
+erro (E) = 0.63158
+
+Iteracao: 330
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.05095
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01349
+w[2] = 0.00532
+w[3] = -0.08708
+erro (E) = 0.63158
+
+Iteracao: 331
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.07525
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01349
+w[2] = 0.00532
+w[3] = -0.08708
+erro (E) = 0.63158
+
+Iteracao: 332
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.11525
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01349
+w[2] = 0.00532
+w[3] = -0.08708
+erro (E) = 0.63158
+
+Iteracao: 333
+Especie de Treinamento: 10
+Saida desejada: 1
+u= -0.01143
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 334
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01476
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 335
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.04093
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 336
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.01199
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 337
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.01900
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 338
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01631
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 339
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02599
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 340
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03224
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 341
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00850
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 342
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04199
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 343
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.04787
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 344
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03397
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 345
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01541
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 346
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01264
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01339
+w[2] = 0.00759
+w[3] = -0.08892
+erro (E) = 0.21053
+
+Iteracao: 347
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00209
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00754
+w[2] = 0.01241
+w[3] = -0.08892
+erro (E) = 0.84211
+
+Iteracao: 348
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00247
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 349
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03245
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 350
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.10011
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 351
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.10011
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 352
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00937
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 353
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01540
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 354
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.04310
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 355
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.01238
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 356
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02010
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 357
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01729
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 358
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02757
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 359
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03394
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 360
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00873
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 361
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04447
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 362
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.05057
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 363
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03581
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 364
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01604
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 365
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01319
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01478
+w[2] = 0.00759
+w[3] = -0.09292
+erro (E) = 0.21053
+
+Iteracao: 366
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00249
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.00893
+w[2] = 0.01241
+w[3] = -0.09292
+erro (E) = 0.84211
+
+Iteracao: 367
+Especie de Treinamento: 6
+Saida desejada: 1
+u= -0.00117
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 368
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.03423
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 369
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.10550
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 370
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.10550
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 371
+Especie de Treinamento: 10
+Saida desejada: 1
+u= 0.00973
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 372
+Especie de Treinamento: 11
+Saida desejada: -1
+u= -0.01603
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 373
+Especie de Treinamento: 12
+Saida desejada: 1
+u= 0.04527
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 374
+Especie de Treinamento: 13
+Saida desejada: -1
+u= -0.01277
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 375
+Especie de Treinamento: 14
+Saida desejada: -1
+u= -0.02119
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 376
+Especie de Treinamento: 15
+Saida desejada: -1
+u= -0.01827
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 377
+Especie de Treinamento: 16
+Saida desejada: -1
+u= -0.02914
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 378
+Especie de Treinamento: 17
+Saida desejada: 1
+u= 0.03565
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 379
+Especie de Treinamento: 18
+Saida desejada: -1
+u= -0.00896
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 380
+Especie de Treinamento: 19
+Saida desejada: 1
+u= 0.04694
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 381
+Especie de Treinamento: 1
+Saida desejada: 1
+u= 0.05327
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 382
+Especie de Treinamento: 2
+Saida desejada: -1
+u= -0.03765
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 383
+Especie de Treinamento: 3
+Saida desejada: 1
+u= 0.01667
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 384
+Especie de Treinamento: 4
+Saida desejada: 1
+u= 0.01375
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01617
+w[2] = 0.00759
+w[3] = -0.09692
+erro (E) = 0.21053
+
+Iteracao: 385
+Especie de Treinamento: 5
+Saida desejada: -1
+u= 0.00290
+e = d - y = -1 - 1 = -2
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01032
+w[2] = 0.01241
+w[3] = -0.09692
+erro (E) = 0.63158
+
+Iteracao: 386
+Especie de Treinamento: 6
+Saida desejada: 1
+u= 0.00014
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01032
+w[2] = 0.01241
+w[3] = -0.09692
+erro (E) = 0.63158
+
+Iteracao: 387
+Especie de Treinamento: 7
+Saida desejada: -1
+u= -0.05040
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01032
+w[2] = 0.01241
+w[3] = -0.09692
+erro (E) = 0.63158
+
+Iteracao: 388
+Especie de Treinamento: 8
+Saida desejada: 1
+u= 0.07484
+e = d - y = 1 - 1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01032
+w[2] = 0.01241
+w[3] = -0.09692
+erro (E) = 0.63158
+
+Iteracao: 389
+Especie de Treinamento: 9
+Saida desejada: -1
+u= -0.11484
+e = d - y = -1 - -1 = 0
+Novos pesos:
+w[0] = -0.02000
+w[1] = -0.01032
+w[2] = 0.01241
+w[3] = -0.09692
+erro (E) = 0.63158
+
+Iteracao: 390
+Especie de Treinamento: 10
+Saida desejada: 1
+u= -0.00969
+e = d - y = 1 - -1 = 2
+Novos pesos:
+w[0] = 0.00000
+w[1] = -0.01022
+w[2] = 0.01468
+w[3] = -0.09877
+erro (E) = 0.00000
+
+Teste:
+Pesos:
+w[0] = 0.00000
+w[1] = -0.01022
+w[2] = 0.01468
+w[3] = -0.09877
+
+Especie de Teste 1
+u = -0.057590
+y = -1  x  d = -1
+
+Especie de Teste 2
+u = -0.019093
+y = -1  x  d = -1
+
+Especie de Teste 3
+u = 0.020389
+y = 1  x  d = 1
+
+Especie de Teste 4
+u = -0.033768
+y = -1  x  d = -1
+
+Especie de Teste 5
+u = 0.040922
+y = 1  x  d = 1
+
+Especie de Teste 6
+u = 0.038458
+y = 1  x  d = 1
+
+
+                                CLASS. TESTE:
+                                FEMEA           MACHO
+
+CLASS. REAL: FEMEA              3              0
+
+             MACHO              0              3
+
+A acuracia do conjunto teste e de 6/6 = 1.00000 = 100%
